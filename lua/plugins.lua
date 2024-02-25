@@ -20,6 +20,8 @@ packer.startup({
     -- nightfox
     use("EdenEast/nightfox.nvim")
     -------------------------------------------------------
+    -- nvim-tree
+    use({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
   end,
   -- 使用代理站点
   config = {
