@@ -6,7 +6,10 @@ require('keybindings')
 require('plugins')
 -- 主题设置
 require('colorscheme')
--- 插件配置
+-- nvim-tree 侧边栏文件浏览器
 require('plugin-config.nvim-tree')
--- bufferline
+-- bufferline 顶部标签页
 require('plugin-config.bufferline')
+-- lualine 底部信息显示栏
+require('plugin-config.lualine')
+
