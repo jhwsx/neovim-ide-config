@@ -27,6 +27,8 @@ packer.startup({
     -- lualine 底部信息显示栏
     use({ "nvim-lualine/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons" } })
     use("arkav/lualine-lsp-progress")
+    -- telescope 模糊搜索插件
+    use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
   end,
   -- 使用代理站点
   config = {
